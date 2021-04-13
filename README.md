@@ -157,3 +157,11 @@ mutation {
 }
 
 ````
+```graphql
+ #delete station
+{
+  deleteStation(id: "someStationID"){
+            id
+     }
+}
+```
